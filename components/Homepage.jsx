@@ -5,7 +5,7 @@ import ChatContainer from './ChatContainer'
 import RightSidebar from './RightSidebar'
 
 const Homepage = () => {
-    const [selectedUser, setSelectedUser] = useState(false)
+    const [selectedUser, setSelectedUser] = useState(null)
   return (
    <div className="bg-[url('/assets/bgImage.svg')] bg-contain">
     <div className='border w-full h-screen  sm:px-[15%] sm:py-[5%]'>
